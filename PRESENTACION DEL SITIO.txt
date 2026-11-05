@@ -1,0 +1,30 @@
+USER:ROOT — sitio académico
+
+Estructura:
+- index.html: documento principal HTML5.
+- css/estilos.css: estilos personalizados.
+- js/script.js: interacciones del menú y formulario demostrativo.
+- img/: ilustraciones SVG locales.
+
+# Presentación del proyecto USER:ROOT
+
+**Alumno:** Lorenzo Olguín  
+**Materia:** Informática 2
+
+Para este trabajo decidí desarrollar una página web llamada **USER:ROOT**, un proyecto pensado como una especie de revista digital independiente, enfocada en la tecnología, los videojuegos y la cultura digital.
+
+La idea surgió a partir de mi interés por temas como la inteligencia artificial, la modificación de videojuegos (*modding*), la ingeniería inversa, la piratería y la preservación digital. Me pareció interesante reunir estos temas en un mismo sitio, ya que, aunque parecen tratar cuestiones diferentes, todos tienen algo en común: la relación entre las personas, la tecnología y el acceso al conocimiento digital.
+
+A partir de eso, busqué que la página no fuera simplemente un sitio informativo tradicional, sino que tuviera una identidad propia. Elegí el nombre USER:ROOT, haciendo referencia al concepto de usuario con permisos de administrador en los sistemas informáticos. Quería transmitir la idea de explorar lo que hay detrás de las interfaces y cuestionar cómo funcionan las herramientas y plataformas que utilizamos todos los días.
+
+En cuanto al diseño, opté por una estética oscura, minimalista y tecnológica, utilizando principalmente tonos negros y grises, acompañados por detalles en verde. También incorporé elementos visuales inspirados en terminales, líneas de código e interfaces informáticas. La intención fue conseguir una apariencia moderna, ordenada y relacionada con la temática del proyecto.
+
+La página está organizada en diferentes secciones. Primero se encuentra una portada que presenta el concepto general de USER:ROOT. Después hay una introducción que explica la perspectiva del proyecto y cuatro áreas principales: inteligencia artificial, modding, preservación digital y libertad digital. También agregué un apartado de investigaciones con distintos temas para desarrollar y, finalmente, un manifiesto que resume la idea principal del sitio.
+
+Para desarrollar la página utilicé **HTML5, CSS3, JavaScript y Bootstrap 5**. HTML se utilizó para organizar el contenido y darle estructura al documento; CSS permitió trabajar sobre los colores, las tipografías, los espacios y el diseño visual; JavaScript se incorporó para agregar algunas interacciones; y Bootstrap permitió implementar componentes y adaptar la página a diferentes tamaños de pantalla.
+
+Entre los elementos de Bootstrap utilizados se encuentran el sistema de grillas (*Grid System*), una barra de navegación adaptable con menú hamburguesa, tarjetas para presentar los diferentes temas y botones con estilos propios del framework. También se incorporó un formulario demostrativo en la parte final de la página.
+
+Uno de los objetivos fue que el sitio pudiera visualizarse correctamente tanto en una computadora como en dispositivos móviles, por eso trabajé con un diseño responsive. Además, organicé los archivos separando el HTML, los estilos CSS, el JavaScript y las imágenes en sus respectivas carpetas, para mantener una estructura clara y ordenada.
+
+En conclusión, USER:ROOT busca ser más que una página sobre tecnología. Es una propuesta para investigar y reflexionar sobre temas que cada vez tienen más importancia en el mundo digital, mostrando distintas perspectivas sin intentar dar una única respuesta. A través de este proyecto pude aplicar los contenidos trabajados en Informática 2 y utilizarlos para desarrollar una página con una temática, una identidad visual y una organización propias.

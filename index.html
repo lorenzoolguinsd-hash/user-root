@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="USER:ROOT — investigación independiente sobre inteligencia artificial, modding, preservación y libertad digital.">
+  <meta name="theme-color" content="#090b0a">
+  <title>USER:ROOT — Cultura digital bajo la superficie</title>
+
+  <!-- Bootstrap 5: estilos del framework mediante CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tipografías del proyecto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Encabezado y navegación responsive de Bootstrap -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Navegación principal">
+      <div class="container">
+        <a class="navbar-brand brand-mark" href="#inicio" aria-label="USER:ROOT, inicio">
+          <span class="brand-prompt">USER<span class="accent">:</span>ROOT</span>
+          <span class="brand-caption">INDEPENDENT DIGITAL JOURNAL</span>
+        </a>
+        <!-- El botón aparece en pantallas pequeñas y despliega el menú -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir o cerrar navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="#perspectiva">Perspectiva</a></li>
+            <li class="nav-item"><a class="nav-link" href="#territorios">Territorios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#archivo">Archivo</a></li>
+            <li class="nav-item"><a class="nav-link nav-cta" href="#manifiesto">Leer manifiesto <span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- Portada -->
+    <section class="hero-section" id="inicio">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <p class="eyebrow"><span class="status-dot"></span> INVESTIGACIÓN // CULTURA DIGITAL</p>
+            <h1>La tecnología<br>también tiene<br><span class="text-outline">una zona gris.</span></h1>
+            <p class="hero-copy">Exploramos lo que sucede cuando la inteligencia artificial, los videojuegos y la libertad digital se cruzan. Sin respuestas fáciles. Sin mirar hacia otro lado.</p>
+            <div class="d-flex flex-wrap gap-3 align-items-center">
+              <a class="btn btn-accent" href="#territorios">EXPLORAR EL PROYECTO <span aria-hidden="true">↘</span></a>
+              <span class="micro-note">VOL. 01 <span class="accent">/</span> NOVIEMBRE 2026</span>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="hero-art-wrap">
+              <img src="img/hero-terminal.svg" class="img-fluid hero-art" alt="Ilustración abstracta de una terminal digital con una interfaz de código">
+              <div class="art-index"><span>FIG. 001</span><span>ACCESS GRANTED_</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bottomline">
+          <span>UN ESPACIO PARA PREGUNTAR</span>
+          <span class="scroll-cue">SCROLL PARA DESCUBRIR <span aria-hidden="true">↓</span></span>
+          <span>ARGENTINA / INTERNET</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introducción editorial -->
+    <section class="intro-section section-pad" id="perspectiva">
+      <div class="container">
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-3">
+            <p class="section-kicker">01 — PUNTO DE PARTIDA</p>
+          </div>
+          <div class="col-lg-9">
+            <h2 class="intro-title">No se trata solamente de <span class="accent">qué podemos hacer</span> con la tecnología, sino de quién decide sus límites.</h2>
+            <div class="row mt-4 g-4">
+              <div class="col-md-6">
+                <p class="body-copy">La inteligencia artificial está cambiando la forma de crear, analizar y modificar software. En el universo de los videojuegos, estas herramientas abren posibilidades para experimentar, recuperar obras y comprender sistemas que antes parecían inaccesibles.</p>
+              </div>
+              <div class="col-md-6">
+                <p class="body-copy">Pero cada avance también trae preguntas: ¿qué es legítimo modificar?, ¿qué pasa cuando un juego deja de funcionar?, ¿dónde termina la preservación y empieza la infracción? USER:ROOT investiga esas tensiones.</p>
+              </div>
+            </div>
+            <div class="quote-line"><span class="quote-mark">“</span><span>Entender el sistema es el primer paso para discutir sus reglas.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Territorios temáticos: tarjetas Bootstrap -->
+    <section class="territories-section section-pad" id="territorios">
+      <div class="container">
+        <div class="section-heading d-flex flex-wrap justify-content-between align-items-end gap-3">
+          <div>
+            <p class="section-kicker">02 — ÁREAS DE EXPLORACIÓN</p>
+            <h2>Cuatro territorios.<br><span class="muted-title">Una misma pregunta.</span></h2>
+          </div>
+          <p class="heading-aside">DESLIZÁ ENTRE DISCIPLINAS<br>Y CONECTÁ LOS PUNTOS.</p>
+        </div>
+
+        <div class="row g-3 g-xl-4 mt-3">
+          <div class="col-sm-6 col-lg-3">
+            <article class="card topic-card h-100">
+              <div class="card-visual"><img src="img/card-ai.svg" alt="" class="img-fluid" loading="lazy"><span class="card-number">01</span></div>
+              <div class="card-body">
+                <p class="card-tag">MÁQUINAS QUE APRENDEN</p>
+                <h3 class="card-title">Inteligencia artificial</h3>
+                <p class="card-text">De asistentes de código al análisis de sistemas complejos: nuevas herramientas para crear y comprender.</p>
+                <a href="#archivo" class="card-link">VER INVESTIGACIONES <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <article class="card topic-card h-100">
+              <div class="card-visual"><img src="img/card-modding.svg" alt="" class="img-fluid" loading="lazy"><span class="card-number">02</span></div>
+              <div class="card-body">
+                <p class="card-tag">CREAR SOBRE LO CREADO</p>
+                <h3 class="card-title">Modding</h3>
+                <p class="card-text">Comunidades que amplían, transforman y mantienen vivos los videojuegos más allá de su versión original.</p>
+                <a href="#archivo" class="card-link">VER INVESTIGACIONES <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <article class="card topic-card h-100">
+              <div class="card-visual"><img src="img/card-preservation.svg" alt="" class="img-fluid" loading="lazy"><span class="card-number">03</span></div>
+              <div class="card-body">
+                <p class="card-tag">MEMORIA DIGITAL</p>
+                <h3 class="card-title">Preservación</h3>
+                <p class="card-text">Emulación, compatibilidad y archivos digitales: cómo conservar experiencias que dependen del software.</p>
+                <a href="#archivo" class="card-link">VER INVESTIGACIONES <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <article class="card topic-card h-100">
+              <div class="card-visual"><img src="img/card-freedom.svg" alt="" class="img-fluid" loading="lazy"><span class="card-number">04</span></div>
+              <div class="card-body">
+                <p class="card-tag">DERECHOS Y REGLAS</p>
+                <h3 class="card-title">Libertad digital</h3>
+                <p class="card-text">Piratería, propiedad intelectual e interoperabilidad: debates sobre acceso, control y responsabilidad.</p>
+                <a href="#archivo" class="card-link">VER INVESTIGACIONES <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Artículos / archivo -->
+    <section class="archive-section section-pad" id="archivo">
+      <div class="container">
+        <div class="row align-items-end mb-4">
+          <div class="col-lg-8">
+            <p class="section-kicker">03 — CUADERNO DE INVESTIGACIÓN</p>
+            <h2>Ideas en <span class="accent">proceso.</span></h2>
+          </div>
+          <div class="col-lg-4 text-lg-end"><span class="archive-count">ARCHIVO / 004 ENTRADAS</span></div>
+        </div>
+        <div class="archive-list">
+          <article class="archive-item row align-items-center g-3">
+            <div class="col-md-2"><span class="archive-type">ANÁLISIS 01</span></div>
+            <div class="col-md-7"><h3>Cuando la IA se convierte en una herramienta de ingeniería inversa</h3><p>Una mirada a la asistencia automatizada para interpretar código, estructuras y comportamientos.</p></div>
+            <div class="col-md-3 text-md-end"><span class="archive-topic">IA / REVERSE ENGINEERING</span></div>
+          </article>
+          <article class="archive-item row align-items-center g-3">
+            <div class="col-md-2"><span class="archive-type">ENSAYO 02</span></div>
+            <div class="col-md-7"><h3>Modificar un videojuego: ¿intervención, homenaje o conflicto?</h3><p>El modding como práctica creativa y como punto de fricción con las reglas de cada plataforma.</p></div>
+            <div class="col-md-3 text-md-end"><span class="archive-topic">MODDING / COMUNIDAD</span></div>
+          </article>
+          <article class="archive-item row align-items-center g-3">
+            <div class="col-md-2"><span class="archive-type">DEBATE 03</span></div>
+            <div class="col-md-7"><h3>¿Un videojuego puede desaparecer para siempre?</h3><p>La preservación digital frente al cierre de servidores, la obsolescencia y las licencias.</p></div>
+            <div class="col-md-3 text-md-end"><span class="archive-topic">PRESERVACIÓN / ACCESO</span></div>
+          </article>
+          <article class="archive-item row align-items-center g-3">
+            <div class="col-md-2"><span class="archive-type">PERSPECTIVA 04</span></div>
+            <div class="col-md-7"><h3>Piratería y libertad digital: salir de la discusión simplista</h3><p>Una conversación sobre acceso, propiedad, contexto y las distintas responsabilidades involucradas.</p></div>
+            <div class="col-md-3 text-md-end"><span class="archive-topic">ÉTICA / CULTURA DIGITAL</span></div>
+          </article>
+        </div>
+        <p class="archive-footnote"><span class="accent">*</span> Los títulos funcionan como líneas editoriales del proyecto y pueden ampliarse con fuentes, entrevistas y casos concretos.</p>
+      </div>
+    </section>
+
+    <!-- Manifiesto y formulario -->
+    <section class="manifesto-section section-pad" id="manifiesto">
+      <div class="container">
+        <div class="manifesto-panel">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-7">
+              <p class="section-kicker">04 — DECLARACIÓN DE PRINCIPIOS</p>
+              <h2>No aceptamos la tecnología como una <span class="accent">caja cerrada.</span></h2>
+              <p class="body-copy">USER:ROOT nace para mirar debajo de la interfaz. No busca glorificar la piratería ni demonizar la innovación: propone investigar, distinguir contextos y pensar críticamente quién controla las herramientas, las obras y el conocimiento.</p>
+              <p class="manifesto-end">CURIOSIDAD COMO MÉTODO. <span class="accent">CRITERIO COMO BRÚJULA.</span></p>
+            </div>
+            <div class="col-lg-5">
+              <div class="terminal-card">
+                <div class="terminal-top"><span></span><span></span><span></span><small>root@user:~</small></div>
+                <div class="terminal-content">
+                  <p><span class="terminal-muted">01</span> cuestionar_por_defecto();</p>
+                  <p><span class="terminal-muted">02</span> investigar_con_contexto();</p>
+                  <p><span class="terminal-muted">03</span> preservar_lo_que_importa();</p>
+                  <p><span class="terminal-muted">04</span> compartir_con_responsabilidad();</p>
+                  <p class="terminal-result"><span class="accent">&gt;</span> sistema listo<span class="cursor">_</span></p>
+                </div>
+              </div>
+              <form class="newsletter-form mt-4" id="newsletterForm">
+                <label for="email" class="form-label">RECIBIR NOVEDADES DEL ARCHIVO</label>
+                <div class="input-group">
+                  <input type="email" class="form-control" id="email" placeholder="tu@email.com" aria-label="Correo electrónico" required>
+                  <button class="btn btn-accent" type="submit">SUMARME ↗</button>
+                </div>
+                <div class="form-text" id="formFeedback">Formulario demostrativo para el proyecto académico.</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-3 align-items-center">
+        <div class="col-md-4"><a class="footer-brand" href="#inicio">USER<span class="accent">:</span>ROOT</a><p class="footer-small">INDEPENDENT DIGITAL JOURNAL</p></div>
+        <div class="col-md-4 text-md-center"><p class="footer-small mb-0">UN PROYECTO ACADÉMICO SOBRE CULTURA Y TECNOLOGÍA.</p></div>
+        <div class="col-md-4 text-md-end"><a class="back-top" href="#inicio">VOLVER ARRIBA ↑</a></div>
+      </div>
+      <div class="footer-rule"></div>
+      <p class="copyright">© 2026 USER:ROOT — HECHO PARA PREGUNTAR, NO PARA CERRAR EL DEBATE.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle incluye Popper y permite el menú hamburguesa -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JavaScript propio -->
+  <script src="js/script.js"></script>
+</body>
+</html>
